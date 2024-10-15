@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+x find "$permissions" -type d
+for dir in $(find . -type d) do chmod a+x "$dir" done
